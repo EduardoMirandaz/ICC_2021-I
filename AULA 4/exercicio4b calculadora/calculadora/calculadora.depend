@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620781907 source:c:\users\eduar\onedrive\documentos\faculdade\icc\aula 4\exercicio4b calculadora\calculadora\calculadora.c
+	<stdlib.h>
+	<stdio.h>
+
