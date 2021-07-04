@@ -9,15 +9,23 @@ int main(){
     char s[50], c, *pC;
     gets(s);
     scanf("%c", &c);
-    pC = s;
-    tiraLetra(&s[0], c, *pC);
+    //printf(s);
+    //printf("%c", c);
+    tiraLetra(&s[0], c, &pC);
+    return 0;
 }
-
-void tiraLetra(char *s, char c, char* pC){
-    do{
-        pC = strchr(s, c);
-        s[*pC] = ' ';
+void tiraLetra(char *s, char c, char *pC)
+{
+    for(int a = 0; a < strlen(s); a++){
+        if(s[a] == c){
+            pC = strchr(s, c);
+            *pC = ' ';
+        }
     }
-    while(stricmp(s, c) != 0);
-    printf(s);
+    for(int i = 0; i < strlen(s); i++){
+        if(s[i] != ' ')
+        {
+            printf("%c", s[i]);
+        }
+    }
 }
