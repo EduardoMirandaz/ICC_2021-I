@@ -2,19 +2,9 @@
 
 int main(){
 
-int m[10];
-
-for (int i = 0; i <= 10; i++){
-
-    scanf("%d", m[i]);
+    int a[10];
+    for(int i = 0; i < 10; i++)
+        scanf("%d", &a[i]);
+    for(int x = 9; x >= 0; x--)
+        printf("%d ", a[x]);
 }
-
-for (int a = 10; a > 0; a--){
-
-    printf("%d", m[a]);
-}
-
-
-
-
-return 0;}

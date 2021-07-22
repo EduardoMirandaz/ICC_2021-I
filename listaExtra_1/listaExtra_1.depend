@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626485362 source:c:\users\eduar\onedrive\documentos\faculdade\icc\listaextra_1\le1.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

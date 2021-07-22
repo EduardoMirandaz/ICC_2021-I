@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626202861 source:c:\users\eduar\onedrive\documentos\faculdade\icc\projeto final\projetofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

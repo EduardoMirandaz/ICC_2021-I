@@ -9,7 +9,7 @@ biblioteca string.h. A função retorna 0 caso contrário.
 int fazParte(char *a, char *b);
 
 int main(){
-
+    printf("DESCUBRA SE A PALAVRA A ESTA DENTRO DA PALAVRA B!\n=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 
     char a[100], b[100];
 
@@ -32,21 +32,17 @@ int fazParte(char *a, char *b){
     gets(a);
     for(int z = 0; a[z] != '\0'; z++)
     {
-        printf("%c", a[z]);
         contadorLA++;
     }
-        printf("\n=-=-=-=-=%d", contadorLA);
     printf("\n");
     printf("Insira a frase B! \n");
     gets(b);
     for(int x = 0; b[x] != '\0'; x++)
     {
-        printf("%c", b[x]);
         contadorLB++;
     }
 
         printf("\n");
-        printf("\n=-=-=-=-=%d\n", contadorLB);
     if (contadorLB > contadorLA)
         return 0;
     else{
